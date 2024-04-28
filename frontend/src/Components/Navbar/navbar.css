@@ -1,0 +1,46 @@
+.Btn {
+    width: 140px;
+    height: 40px;
+    border: 12px;
+    border-radius: 10px;
+    background: linear-gradient(to right,#fce168,#AE402D,#fce168,#fce168,#AE402D,#fce168 );
+    background-size: 250%;
+    background-position: left;
+    color: #fce168;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: 1s;
+    overflow: hidden;
+  }
+  
+  .Btn::before {
+    position: absolute;
+    content: "GET STARTED";
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    height: 90%;
+    border-radius: 8px;
+    transition-duration: 1s;
+    background-color: #AE402D;
+    background-size: 200%;
+  }
+  
+  .Btn:hover {
+    background-position: right;
+    transition-duration: 1s;
+  }
+  
+  .Btn:hover::before {
+    background-position: right;
+    transition-duration: 1s;
+  }
+  
+  .Btn:active {
+    transform: scale(0.95);
+  }
