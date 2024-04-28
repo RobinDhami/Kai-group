@@ -27,6 +27,11 @@ function Navbar() {
         </div>
         <button className="Btn items-center"></button>
       </div>
+      <div >
+      <h1>
+      Welcome to neem karoli trust
+      </h1>
+      </div>
     </div>
   );
 }
