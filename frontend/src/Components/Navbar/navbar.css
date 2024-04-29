@@ -44,3 +44,16 @@
   .Btn:active {
     transform: scale(0.95);
   }
+
+  /* Define keyframe animation */
+  @keyframes colorChange {
+    0% { color: #AE402D; transform: scale(1); }
+    50% { color: #AE402D; transform: scale(1.1); }
+    100% { color: #AE402D; transform: scale(1); }
+}
+
+.animated-text {
+    animation: colorChange 3.5s infinite;
+}
+/* Apply animation to the element */
+
