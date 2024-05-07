@@ -12,19 +12,17 @@ const Nav = () => {
     ];
     let [open,setOpen]=useState(false);
   return (
-    <div className='shadow-md w-full fixed top-0 left-0 '>
+    <div className='shadow-md w-full fixed top-0 left-0 z-20'>
       <div className='md:flex items-center justify-between bg-white py-4 md:px-10 px-7'>
       <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
       text-gray-800'>
-        <span className='text-3xl text-indigo-600 mr-1 pt-2'>
-        <ion-icon name="logo-ionic"></ion-icon>
-        </span>
+        
         <a className="lg:flex title-font font-medium lg:items-center text-gray-900 mb-4 lg:mb-0 lg:z-10">
           <img src={logo} className="h-25 w-20 md:h-30 md:w-22" alt="Trust Logo" />
         </a>
       </div>
       
-      <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden bg-black '>
+      <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden  '>
       <ion-icon name={open ? 'close':'menu'}></ion-icon>
       </div>
 

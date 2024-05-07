@@ -1,14 +1,15 @@
 import trust from "../assets/trust.png"
-
+import "./hero.css"
 const hero = () => {
   return (
-    <div className="relative flex  lg:pt-36 pt-36 px-8 lg:px-16 lg:py-[20px] justify-evenly  lg:h-[110vh] h-auto ">
-<div className="text-black flex-1 mr-5">
+    <div className="sticky z-10 flex top-0 lg:pt-36 pt-36 px-8 lg:px-16 lg:py-[20px] justify-evenly  lg:h-[110vh] h-auto ">
+<div className="text-black flex-1 mr-5 ">
   <div className="">
 
-    <h1 className="text-5xl  mb-6 lg:text-5xl text-[#AE402D] font-sans md:pt-2 ">
-      Neem   Karoli 
-    </h1>
+  <h1 className="text-5xl mb-6 lg:text-5xl text-[#AE402D] font-sans md:pt-2 text-effect">
+  Neem Karoli
+</h1>
+
     <span className="text-4xl text-[#FFA302] md:pt-5">
     <span className="text-red-500">"</span>
     Love everyone, serve everyone, remember God, and tell the truth
