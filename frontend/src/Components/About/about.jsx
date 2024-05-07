@@ -3,7 +3,7 @@ import image from "../../assets/trust.png"
 const about = () => {
   return (
     <div className="p-10  relative py-8 ">
-      <div >
+      <div className=" py-8">
       <img  src={image}>
       </img>
       </div>
