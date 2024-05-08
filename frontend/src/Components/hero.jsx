@@ -2,7 +2,7 @@ import trust from "../assets/trust.png";
 import "./hero.css";
 const hero = () => {
   return (
-    <div className="lg:flex lg:justify-between top-0 lg:pt-36 pt-36 px-8 lg:px-16 lg:py-[20px] lg:h-[110vh] h-auto ">
+    <div className="lg:flex lg:justify-between top-0 lg:pt-36 pt-36 px-8 lg:px-16 lg:py-[20px]  ">
       <div className="text_container text-black flex-1 mr-5 lg:w-1/5">
         <h1 className="text-3xl mb-6 lg:text-4xl text-[#AE402D] font-sans md:pt-2 text-effect ">
           Neem Karoli Trust
