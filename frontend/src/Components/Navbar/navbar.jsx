@@ -5,10 +5,10 @@ import logo from "../../assets/neem.png"
 const Nav = () => {
     let Links =[
       {name:"HOME",link:"/"},
-      {name:"MAHARAJI",link:"/"},
-      {name:"TEMPLE",link:"/"},
-      {name:"BLOG'S",link:"/"},
-      {name:"VOLUNTEER",link:"/"},
+      {name:"MAHARAJI",link:"/maharaji"},
+      {name:"BLOGS",link:"/blogs"},
+      {name:"SEWA",link:"/sewa"},
+      {name:"VOLUNTEER",link:"/volunteer"},
     ];
     let [open,setOpen]=useState(false);
   return (
@@ -30,12 +30,12 @@ const Nav = () => {
         {
           Links.map((link)=>(
             <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7'>
-              <a href={link.link} className='text-[#AE402D]  hover:underline hover:text-[#ffa202] duration-500'>{link.name}</a>
+              <a href={link.link} className='text-[#AE402D]  font-semibold hover:text-[#ffa202] duration-500'>{link.name}</a>
             </li>
           ))
         }
         <Button className="Btn items-center" >
-          Get Started
+          Make Donation 
         </Button>
       </ul>
       </div>

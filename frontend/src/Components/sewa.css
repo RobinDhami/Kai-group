@@ -1,0 +1,98 @@
+/* CSS for responsiveness and styling */
+
+/* Hero Section */
+.hero-section {
+    background-image: url('images/hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* About Section */
+.about-section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+/* Our Work Section */
+.our-work-section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.work-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.work-item {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.work-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Donate Section */
+.donate-section {
+    background-color: #f9f9f9;
+    padding: 100px 0;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.footer-social ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-social ul li a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer-info p {
+    margin: 10px 0;
+}

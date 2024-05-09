@@ -1,6 +1,8 @@
 import trust from "../assets/trust.png";
 import "./hero.css";
+
 const hero = () => {
+  
   return (
     <div className="lg:flex lg:justify-between top-0 lg:pt-36 pt-36 px-8 lg:px-16 lg:py-[20px]  ">
       <div className="text_container text-black flex-1 mr-5 lg:w-1/5">
@@ -25,7 +27,8 @@ const hero = () => {
           and unity prevail.
         </p>
         <div className="md:mt-2 lg:block flex lg:justify-center lg:mb-8 mb-5">
-          <button className="bg-[#FFB22B] rounded px-8 py-2 mt-8 text-white lg:text-xl hover:bg-[#AE402D] shadow-custom mr-8 ">
+          <button className="bg-[#FFB22B] rounded px-8 py-2 mt-8 text-white lg:text-xl hover:bg-[#AE402D] shadow-custom mr-8  " 
+          >
             Explore
           </button>
           <button className="bg-none border-[#FFB22B] border-2 rounded px-8 py-2 mt-8  lg:text-xl shadow-custom hover:bg-[#AE402D] hover:text-white">
