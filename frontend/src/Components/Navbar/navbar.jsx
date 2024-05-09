@@ -6,7 +6,7 @@ const Nav = () => {
     let Links =[
       {name:"HOME",link:"/"},
       {name:"MAHARAJI",link:"/maharaji"},
-      {name:"BLOGS",link:"/blogs"},
+      {name:"EVENTS",link:"/events"},
       {name:"SEWA",link:"/sewa"},
       {name:"VOLUNTEER",link:"/volunteer"},
     ];

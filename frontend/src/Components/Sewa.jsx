@@ -1,59 +1,182 @@
-import { Link } from "react-router-dom";
+import img5 from "../assets/baba1.png";
+import img1 from "../assets/bab3.jpg";
+import img2 from "../assets/baba.webp";
+import img3 from "../assets/logo.png";
+import img4 from "../assets/bab4.jpg";
 
-function ServiceSection() {
-
-
-  const services = [
-    {
-      url:'/program',
-      title: 'Earthquake:Needy Essentials',
-      imageUrl: 'https://www.wfp.org/sites/default/files/styles/media_embed/public/2023-11/Nepal_food_Distribution_earthquake_WFP.png?itok=4lZdPaBK',
-      description: `Natural disasters can devastate communities, leaving people without access to basic necessities. In times of crisis, Neem Karoli Trust stands in solidarity with those affected by earthquakes and other disasters. Through our relief efforts, we provide essential goods such as food, water, shelter, and medical supplies to affected individuals and families. Our team works tirelessly to ensure that aid reaches those who need it most, offering hope and support in the face of adversity. By coming together and lending a helping hand, we demonstrate the power of compassion and solidarity in rebuilding communities and restoring hope for a better tomorrow.`,
-      
-    },
-    {
-      title: 'Senior Citizen Day Care',
-      imageUrl: 'https://smf.org.np/wp-content/uploads/2018/07/day-care-meal.jpg',
-      description: 'At Neem Karoli Trust, we believe in honoring and supporting our elders. Our Senior Citizen Day Care program offers a nurturing and engaging environment for seniors to spend their days. With trained staff and a range of activities tailored to their interests and needs, we ensure that our elders receive the care and companionship they deserve. From socializing with peers to participating in recreational activities and receiving assistance with daily tasks, we strive to enhance their quality of life and promote their well-being.',
-    },
-    {
-      title: 'Small Orphanage in Kathmandu',
-      imageUrl: 'https://volunteerworknepal.com/wp-content/uploads/2019/08/volunteer-work-nepal.jpg',
-      description: 'Every child deserves a loving and supportive environment to thrive in. Through our "Help a Small Orphanage" initiative, we extend our hand to smaller orphanages in need of support. From providing financial assistance for basic necessities like food, clothing, and shelter to organizing educational and recreational activities for the children, we aim to create a safe and nurturing space where every child feels valued and cared for. By collaborating with these orphanages, we work towards building brighter futures for orphaned children and empowering them to reach their full potential',
-    },
-    {
-      title: 'Charity',
-      imageUrl: 'https://pastor.crystalpro.net/wp-content/uploads/2016/05/Volunteering-as-a-helping-hand-in-NGO.jpg',
-      description: 'During times of crisis, our disaster relief efforts provide immediate assistance to those affected by natural disasters such as floods, earthquakes, and hurricanes. We mobilize resources quickly to provide emergency aid, including food, shelter, and medical supplies, to affected communities. By offering timely support and relief, we help communities recover and rebuild in the aftermath of disasters, restoring hope and resilience in the face of adversity.',
-    },
-   
-  ];
-
-    return (
-      <div className="bg-white py-[12%]" id="services">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-14">
-            {/* Map through services array */}
-            {services.map((service, index) => (
-              <div key={index} className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300 ease-in-out">
-                <img src={service.imageUrl} alt={service.title} className="w-full h-56 object-cover rounded-t-lg" />
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold text-red-600 mb-2">{service.title}</h3>
-                  {/* Render description */}
-                  <p className="text-gray-600">{service.description}</p>
-                  {/* Render Read More button */}
-                  <Link to={service.url}>
-                    <button className="mt-4 bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-                      Read More
-                    </button>
-                  </Link>
-                </div>
+const Sewa = () => {
+  return (
+    <div className="container mx-auto grid grid-cols-1 gap-8 py-[12%] md:grid-cols-[3fr_1fr] md:gap-12 lg:gap-16 ">
+      <main>
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="rounded-lg bg-white shadow-md  ">
+            <img
+              src={img5}
+              alt="Product image"
+              width="400"
+              height="225"
+              className="h-48 w-full rounded-t-lg object-cover"
+              style={{ aspectRatio: "400 / 225", objectFit: "cover" }}
+            />
+            <div className="p-4">
+              <h3 className="text-xl font-semibold text-gray-900 ">
+                <a href="#">Neem Leaf Extract</a>
+              </h3>
+              <p className="mt-2 text-gray-600 ">
+                Discover the powerful benefits of neem leaf extract for your health and wellness.
+              </p>
+              <div className="mt-4">
+                <a className="text-[#AE402D] hover:underline d" href="#">
+                  Read more
+                </a>
               </div>
-            ))}
+            </div>
+          </div>
+          <div className="rounded-lg bg-white shadow-md  ">
+            <img
+              src={img1}
+              alt="Product image"
+              width="400"
+              height="225"
+              className="h-48 w-full rounded-t-lg object-cover"
+              style={{ aspectRatio: "400 / 225", objectFit: "cover" }}
+            />
+            <div className="p-4">
+              <h3 className="text-xl font-semibold text-gray-900 ">
+                <a href="#">Neem Leaf Extract</a>
+              </h3>
+              <p className="mt-2 text-gray-600 ">
+                Discover the powerful benefits of neem leaf extract for your health and wellness.
+              </p>
+              <div className="mt-4">
+                <a className="text-[#AE402D] hover:underline d" href="#">
+                  Read more
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="rounded-lg bg-white shadow-md  ">
+            <img
+              src={img2}
+              alt="Product image"
+              width="400"
+              height="225"
+              className="h-48 w-full rounded-t-lg object-cover"
+              style={{ aspectRatio: "400 / 225", objectFit: "cover" }}
+            />
+            <div className="p-4">
+              <h3 className="text-xl font-semibold text-gray-900 ">
+                <a href="#">Neem Leaf Extract</a>
+              </h3>
+              <p className="mt-2 text-gray-600 ">
+                Discover the powerful benefits of neem leaf extract for your health and wellness.
+              </p>
+              <div className="mt-4">
+                <a className="text-[#AE402D] hover:underline d" href="#">
+                  Read more
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="rounded-lg bg-white shadow-md  ">
+            <img
+              src={img3}
+              alt="Product image"
+              width="400"
+              height="225"
+              className="h-48 w-full rounded-t-lg object-cover"
+              style={{ aspectRatio: "400 / 225", objectFit: "cover" }}
+            />
+            <div className="p-4">
+              <h3 className="text-xl font-semibold text-gray-900 ">
+                <a href="#">Neem Leaf Extract</a>
+              </h3>
+              <p className="mt-2 text-gray-600 ">
+                Discover the powerful benefits of neem leaf extract for your health and wellness.
+              </p>
+              <div className="mt-4">
+                <a className="text-[#AE402D] hover:underline d" href="#">
+                  Read more
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="rounded-lg bg-white shadow-md  ">
+            <img
+              src={img4}
+              alt="Product image"
+              width="400"
+              height="225"
+              className="h-48 w-full rounded-t-lg object-cover"
+              style={{ aspectRatio: "400 / 225", objectFit: "cover" }}
+            />
+            <div className="p-4">
+              <h3 className="text-xl font-semibold text-gray-900 ">
+                <a href="#">Neem Leaf Extract</a>
+              </h3>
+              <p className="mt-2 text-gray-600 ">
+                Discover the powerful benefits of neem leaf extract for your health and wellness.
+              </p>
+              <div className="mt-4">
+                <a className="text-[#AE402D] hover:underline d" href="#">
+                  Read more
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* Add similar code blocks for other products */}
+        </div>
+      </main>
+      <aside className="space-y-8">
+        <div className="rounded-lg bg-gray-100 p-6 shadow-md  ">
+          <h3 className="text-xl font-semibold text-gray-900 ">About Neem Karoli</h3>
+          <div className="mt-4 text-gray-600 ">
+            <p>
+              Neem Karoli is a charitable trust that provides support and assistance to those in need, including
+              orphans, senior citizens, and victims of natural disasters. Our mission is to empower and uplift the lives
+              of the underprivileged through various initiatives and programs.
+            </p>
+            <p className="mt-2">
+              Neem, a versatile tree native to India, has been used for centuries in Ayurvedic medicine and traditional
+              remedies. We believe in harnessing the power of neem to create products that are gentle, safe, and
+              beneficial for your body and the environment, while also using the proceeds to fund our charitable work.
+            </p>
           </div>
         </div>
-      </div>
-    );
-}
+        <div className="rounded-lg bg-gray-100 p-6 shadow-md  ">
+          <h3 className="text-xl font-semibold text-gray-900 ">Donate to Our Cause</h3>
+          <p className="mt-2 text-gray-600 ">
+            Your donation can make a significant difference in the lives of those we serve. Help us continue our mission
+            of providing aid and support to those in need.
+          </p>
+          <div className="mt-4">
+            <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 py-2 w-full bg-[#AE402D] text-white hover:bg-[#AE402D] :bg-[#AE402D]  ">
+              Donate Now
+            </button>
+          </div>
+        </div>
+        <div className="rounded-lg bg-gray-100 p-6 shadow-md  ">
+          <h3 className="text-xl font-semibold text-gray-900 ">Newsletter</h3>
+          <p className="mt-2 text-gray-600 ">
+            Subscribe to our newsletter to stay up-to-date with the latest product updates and special offers.
+          </p>
+          <form className="mt-4 space-y-2">
+            <input
+              className="flex h-10 border border-input text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 w-full rounded-md bg-gray-100 px-4 py-2 text-gray-900 shadow-sm focus:outline-none focus:ring-2 focus:ring-[#AE402D]   :focus:ring-[#AE402D]"
+              placeholder="Enter your email"
+              type="email"
+            />
+            <button
+              className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 py-2 w-full bg-[#AE402D] text-white hover:bg-[#AE402D]  "
+              type="submit"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </aside>
+    </div>
+  );
+};
 
-export default ServiceSection;
+export default Sewa;
