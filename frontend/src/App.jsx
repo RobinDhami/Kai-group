@@ -1,18 +1,26 @@
+import Bundle from "./Components/Bundle"
+import { BrowserRouter, Routes ,Route} from 'react-router-dom';
+import Maharaja from "./Components/Maharaja";
 import Navbar from "./Components/Navbar/navbar"
-import Hero from "./Components/hero"
-import Footer from "./Components/footer"
-import AboutSection from "./Components/About"
-import Overall from "./Components/Overall"
-import Contact from "./Components/Contact"
+import Footer from "./Components/Footer"
+import SEWA from "./Components/Sewa"
 function App() {
   return (
     <div >
-      <Navbar/>
-      <Hero/>
-      <AboutSection/>
-      <Contact/>
-<Overall/>
-      <Footer/>
+    <Navbar/>
+    <BrowserRouter>
+    <Routes>
+    <Route path="/sewa" element={<SEWA/>}/>
+    
+  
+    <Route path="/" element={<Bundle/>}/>
+    <Route path="/maharaji" element={<Maharaja/>}/>
+    
+    </Routes>
+    </BrowserRouter>
+    <Footer/>
+   
+      
     </div>
   )
 }
