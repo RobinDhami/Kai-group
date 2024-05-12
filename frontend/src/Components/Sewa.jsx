@@ -1,12 +1,12 @@
-import img5 from "../assets/baba1.png";
-import img1 from "../assets/bab3.jpg";
-import img2 from "../assets/baba.webp";
-import img3 from "../assets/logo.png";
-import img4 from "../assets/bab4.jpg";
+import img5 from "../assets/char1.jpg";
+import img1 from "../assets/char2.jpg";
+import img2 from "../assets/char3.jpg";
+import img3 from "../assets/char4.png";
+import img4 from "../assets/1.webp";
 
 const Sewa = () => {
   return (
-    <div className="container mx-auto grid grid-cols-1 gap-8 py-[12%] md:grid-cols-[3fr_1fr] md:gap-12 lg:gap-16 ">
+    <div className="container mx-auto grid grid-cols-1 gap-8 py-[12%] bg-white md:grid-cols-[3fr_1fr] md:gap-12 lg:gap-16 ">
       <main>
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <div className="rounded-lg bg-white shadow-md  ">
@@ -89,7 +89,7 @@ const Sewa = () => {
             />
             <div className="p-4">
               <h3 className="text-xl font-semibold text-gray-900 ">
-                <a href="#">Neem Leaf Extract</a>
+                <a href="#">Senior citizen day care</a>
               </h3>
               <p className="mt-2 text-gray-600 ">
                 Discover the powerful benefits of neem leaf extract for your health and wellness.

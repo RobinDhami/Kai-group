@@ -10,7 +10,7 @@ const hero = () => {
           Neem Karoli Trust
         </h1>
         <div className="text-5xl text-[#FFA302] md:pt-5">
-          <p className="text-[#FFA302] font-bold">
+          <p className="text-[#FFA302] font-bold" style={{ fontFamily: 'Yeseva One, serif' }}>
             &quot; Love everyone, serve everyone, remember God, and tell the
             truth &quot;
           </p>
