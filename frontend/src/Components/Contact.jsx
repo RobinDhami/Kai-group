@@ -6,7 +6,7 @@ const Contact = () => {
         <div>
             <p className="font-medium text-[#AE402D] ">Contact us</p>
 
-            <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl ">Chat to our friendly team</h1>
+            <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl " style={{ fontFamily: 'Yeseva One, serif' }}>Chat to our friendly team</h1>
 
             <p className="mt-3 text-gray-500 ">We’d love to hear from you. Please fill out this form or shoot us an email.</p>
         </div>
@@ -20,7 +20,7 @@ const Contact = () => {
                         </svg>
                     </span>
 
-                    <h2 className="mt-4 text-base font-medium text-gray-800 ">Email</h2>
+                    <h2 className="mt-4 text-base font-medium text-gray-800 " style={{ fontFamily: 'Yeseva One, serif' }}>Email</h2>
                     <p className="mt-2 text-sm text-gray-500 ">Our friendly team is here to help.</p>
                     <p className="mt-2 text-sm text-red-500 ">hello@merakiui.com</p>
                 </div>
@@ -32,7 +32,7 @@ const Contact = () => {
                         </svg>
                     </span>
                     
-                    <h2 className="mt-4 text-base font-medium text-gray-800 ">Phone</h2>
+                    <h2 className="mt-4 text-base font-medium text-gray-800 " style={{ fontFamily: 'Yeseva One, serif' }}>Phone</h2>
                     <p className="mt-2 text-sm text-gray-500 ">Mon-Fri from 8am to 5pm.</p>
                     <p className="mt-2 text-sm text-red-500 ">+1 (555) 000-0000</p>
                 </div>
@@ -45,7 +45,7 @@ const Contact = () => {
                         </svg>
                     </span>
                     
-                    <h2 className="mt-4 text-base font-medium text-gray-800 ">Office</h2>
+                    <h2 className="mt-4 text-base font-medium text-gray-800 " style={{ fontFamily: 'Yeseva One, serif' }}>Office</h2>
                     <p className="mt-2 text-sm text-gray-500 ">Come say hello at our office HQ.</p>
                     <p className="mt-2 text-sm text-red-500 ">100 Smith Street Collingwood VIC 3066 AU</p>
                 </div>
@@ -57,7 +57,7 @@ const Contact = () => {
                         </svg>
                     </span>
                     
-                    <h2 className="mt-4 text-base font-medium text-gray-800 ">Phone</h2>
+                    <h2 className="mt-4 text-base font-medium text-gray-800 " style={{ fontFamily: 'Yeseva One, serif' }}>Phone</h2>
                     <p className="mt-2 text-sm text-gray-500 ">Mon-Fri from 8am to 5pm.</p>
                     <p className="mt-2 text-sm text-red-500 ">+1 (555) 000-0000</p>
                 </div>
